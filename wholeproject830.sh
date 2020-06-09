@@ -8,7 +8,7 @@ while
 do
 	read ans
 	case $ans in
-	yes[YES|y|Y) echo will print the message
+	yes|YES|y|Y) echo will print the message
 		     echo The message
 		     valid=1
 		     ;;
